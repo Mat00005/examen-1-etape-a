@@ -12,3 +12,127 @@ img,
 video {
   display: block;
 }
+
+.container {
+  background: rgba(163, 177, 138, 1);
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-content: stretch;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  background: rgba(58, 90, 64, 1);
+  border: 1px 0px 0px 0px;
+  font-family: "Heebo", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin: 10px;
+  width: 400px;
+}
+
+.container2 {
+  background: rgba(163, 177, 138, 1);
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.row2 {
+  background: rgba(58, 90, 64, 1);
+  border: 1px 0px 0px 0px;
+  font-family: "Heebo", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin: 10px;
+}
+
+.container3 {
+  background: rgba(163, 177, 138, 1);
+  display: flex;
+  flex-direction: row-reverse;
+
+  height: 400px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row3 {
+  background: rgba(58, 90, 64, 1);
+  border: 1px 0px 0px 0px;
+
+  font-family: "Heebo", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin: 10px;
+}
+
+.container4 {
+  background: rgba(163, 177, 138, 1);
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-content: stretch;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row4 {
+  background: rgba(58, 90, 64, 1);
+  border: 1px 0px 0px 0px;
+
+  font-family: "Heebo", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin: 10px;
+  text-align: center;
+}
+
+.container5 {
+  background: rgba(163, 177, 138, 1);
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  flex-wrap: wrap;
+}
+
+.row5 {
+  background: rgba(58, 90, 64, 1);
+  border: 1px 0px 0px 0px;
+  font-family: "Heebo", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin: 10px;
+  width: 400px;
+}
